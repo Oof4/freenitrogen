@@ -7,5 +7,5 @@ while value <= amount:
     f = open('Codes.txt', "a+")
     f.write(f'{code}\n')
     f.close()
-    print(f'[Generated] [Unchecked] {code}')
+    print(f'[GENERATED] {code}')
     value += 1
